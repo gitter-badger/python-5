@@ -28,3 +28,13 @@ type(n)
 #5**2 
 #(5+9)*(15-7)
 #PEMDAS
+
+# meal calculater
+
+meal=45
+tax=12/100
+meal=meal+meal*tax
+tip=15/100
+total=meal+meal*tip
+print (total)
+57.96
