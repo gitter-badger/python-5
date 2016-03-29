@@ -83,3 +83,30 @@
 		        clinic()
 
 		clinic()
+
+
+name = raw_input("What is your name?")
+quest = raw_input("What is your quest?")
+color = raw_input("What is your favorite color?")
+
+print "Ah, so your name is ___, your quest is ___, " \
+"and your favorite color is ___." ___ (name, quest, color)
+
+from datetime import datetime
+now=datetime.now()
+print now
+
+from datetime import datetime
+now = datetime.now()
+
+print '%s/%s/%s' % (now.month, now.day, now.year)
+
+from datetime import datetime
+now = datetime.now()
+
+print '%s:%s:%s' % (now.hour, now.minute, now.second)
+
+from datetime import datetime
+now = datetime.now()
+
+print '%s/%s/%s %s:%s:%s' % (now.month, now.day, now.year, now.hour, now.minute, now.second)
