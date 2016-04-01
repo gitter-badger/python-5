@@ -21,13 +21,15 @@
 		type(pi)
 		type(n)
 
-		#The operators +, -, *, / and ** perform addition, subtraction, multiplication, division and exponentiation, as in the following examples:
-		#20+32 
-		#hour-1 
-		#hour*60+minute minute/60 
-		#5**2 
-		#(5+9)*(15-7)
-		#PEMDAS
+		"""The operators +, -, *, / and ** perform addition, subtraction, multiplication, division and exponentiation, as in the following examples:
+		20+32 
+		hour-1 
+		hour*60+minute minute/60 
+		5**2 
+		(5+9)*(15-7)
+		Arthametic operation happens from left to right
+		PEMDAS
+		"""
 
 		#some time we need to use backlash to skip over single quote
 		'this isn\'t the case for keep over backlash'
@@ -110,3 +112,27 @@ from datetime import datetime
 now = datetime.now()
 
 print '%s/%s/%s %s:%s:%s' % (now.month, now.day, now.year, now.hour, now.minute, now.second)
+
+Equal to (==)
+02. Not equal to (!=)
+03. Less than (<)
+04. Less than or equal to (<=)
+05. Greater than (>)
+06. Greater than or equal to (>=)
+
+# Assign True or False as appropriate on the lines below!
+
+# Set this to True if 17 < 328 or to False if it is not.
+bool_one = True   # We did this one for you!
+
+# Set this to True if 100 == (2 * 50) or to False otherwise.
+bool_two = True
+
+# Set this to True if 19 <= 19 or to False if it is not.
+bool_three = True
+
+# Set this to True if -22 >= -18 or to False if it is not.
+bool_four = False
+
+# Set this to True if 99 != (98 + 1) or to False otherwise.
+bool_five = False

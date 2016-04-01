@@ -9,4 +9,4 @@ tip=input("what is the tip percent paid on meal?(only number)")
 tip=int(tip)
 tip=tip/100
 total=meal_plus_tax+meal_plus_tax*tip
-print("price of meal plus tips Rs "+str(total))
+print("price of meal plus tips Rs "+str(total))					
