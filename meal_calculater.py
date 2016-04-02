@@ -13,9 +13,9 @@ print ("price of meal plus tax Rs "+ str(meal_plus_tax))
 
 #stage 2
 
-dude=input("did you pay tip to the waiter?")
+answer=input("did you pay tip to the waiter?")
 
-if  dude=="yes"or dude=="y":
+if  answer=="yes"or answer=="y":
 	
 	tip=input("what is the tip percent you paid on meal?(only number)")
 	tip=int(tip)
