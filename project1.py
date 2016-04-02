@@ -27,8 +27,16 @@
 		hour*60+minute minute/60 
 		5**2 
 		(5+9)*(15-7)
+		
 		Arthametic operation happens from left to right
 		PEMDAS
+
+		order of operations for boolean operators:
+
+		not is evaluated first;
+		and is evaluated next;
+		or is evaluated last.
+
 		"""
 
 		#some time we need to use backlash to skip over single quote
