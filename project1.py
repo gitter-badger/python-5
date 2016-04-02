@@ -1,84 +1,84 @@
-		#printing in terminal to check the outcome of 'str' and 'int'
-		print('Hello, World!')
-		print(100)
+#printing in terminal to check the outcome of 'str' and 'int'
+print('Hello, World!')
+print(100)
 
-		#to check what type of values
-		type('Hello, World!')
-		type(25)
-		type(3.2)
-		type('10')
-		type('3.2')
+#to check what type of values
+type('Hello, World!')
+type(25)
+type(3.2)
+type('10')
+type('3.2')
 
-		#veriables
-		message='and now for different World'
-		pi=3.1415926535897931
-		n=17
-		cool=pi+n
-		print(cool)	
+#veriables
+message='and now for different World'
+pi=3.1415926535897931
+n=17
+cool=pi+n
+print(cool)	
 
-		#The type of a variable is the type of the value it refers to
-		type(message)
-		type(pi)
-		type(n)
+#The type of a variable is the type of the value it refers to
+type(message)
+type(pi)
+type(n)
 
-		"""The operators +, -, *, / and ** perform addition, subtraction, multiplication, division and exponentiation, as in the following examples:
-		20+32 
-		hour-1 
-		hour*60+minute minute/60 
-		5**2 
-		(5+9)*(15-7)
-		
-		Arthametic operation happens from left to right
-		PEMDAS
+"""The operators +, -, *, / and ** perform addition, subtraction, multiplication, division and exponentiation, as in the following examples:
+20+32 
+hour-1 
+hour*60+minute minute/60 
+5**2 
+(5+9)*(15-7)
 
-		order of operations for boolean operators:
+Arthametic operation happens from left to right
+PEMDAS
 
-		not is evaluated first;
-		and is evaluated next;
-		or is evaluated last.
+order of operations for boolean operators:
 
-		"""
+not is evaluated first;
+and is evaluated next;
+or is evaluated last.
 
-		#some time we need to use backlash to skip over single quote
-		'this isn\'t the case for keep over backlash'
+"""
 
-		#String methods
-		len()
-		lower()
-		upper()
-		str()
+#some time we need to use backlash to skip over single quote
+'this isn\'t the case for keep over backlash'
 
-		parrot="Norwegian Blue"
-	print len(parrot)
+#String methods
+len()
+lower()
+upper()
+str()
 
-		parrot = "Norwegian Blue"
+	parrot="Norwegian Blue"
+print len(parrot)
 
-	print parrot.lower()
+	parrot = "Norwegian Blue"
 
-		parrot = "norwegian blue"
+print parrot.lower()
 
-	print parrot.upper()
+	parrot = "norwegian blue"
 
-		"""Declare and assign your variable on line 4,
-	then call your method on line 5!"""
+print parrot.upper()
 
-	pi=3.14
-	print str(pi)
+	"""Declare and assign your variable on line 4,
+then call your method on line 5!"""
 
-
-
-		# meal calculater
-
-		meal=45
-		tax=12/100
-		meal=meal+meal*tax
-		tip=15/100
-		total=meal+meal*tip
-		print (total)
-		57.96
+pi=3.14
+print str(pi)
 
 
-		control following
+
+# meal calculater
+
+meal=45
+tax=12/100
+meal=meal+meal*tax
+tip=15/100
+total=meal+meal*tip
+print (total)
+57.96
+
+
+control following
 
 def using_control_once():
     if 5>=5:
