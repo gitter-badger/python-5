@@ -3,9 +3,9 @@
 #stage 1
 
 meal=input("what is the price of the meal?")
-meal=int(meal)
+meal=float(meal)
 tax=input("what is the percent of tax on meal?(only number)")
-tax=int(tax)
+tax=float(tax)
 tax=tax/100
 meal_plus_tax=meal+meal*tax
 
@@ -18,7 +18,7 @@ answer=input("did you pay tip to the waiter?")
 if  answer=="yes"or answer=="y":
 	
 	tip=input("what is the tip percent you paid on meal?(only number)")
-	tip=int(tip)
+	tip=float(tip)
 	tip=tip/100
 	total=meal_plus_tax+meal_plus_tax*tip
 
